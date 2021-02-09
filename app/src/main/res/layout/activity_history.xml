@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/history"
+    android:orientation="vertical"
+    tools:context=".HistoryActivity">
+
+    <ScrollView
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="@font/hayat"
+                android:text="بسمعه ای تعالی "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:visibility="visible"
+                />
+
+            <TextView
+                android:fontFamily="@font/calibri"
+                android:padding="16dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/title_h1"
+                android:layout_gravity="center"
+                android:text="زندگی نامه"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:fontFamily="@font/calibri"
+                android:padding="16dp"
+                android:id="@+id/txt_h1"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:text="@string/star1"
+                android:paddingTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:fontFamily="@font/calibri"
+                android:padding="16dp"
+                android:id="@+id/title_h2"
+                android:layout_gravity="center"
+                android:text="زندگی "
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:fontFamily="@font/calibri"
+                android:padding="16dp"
+                android:id="@+id/txt_h2"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:text="@string/S"
+                android:paddingTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:fontFamily="@font/calibri"
+                android:padding="16dp"
+                android:id="@+id/title_h3"
+                android:layout_gravity="center"
+                android:text="فرماندهی لشکر ۴۱ ثارالله"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:fontFamily="@font/calibri"
+                android:padding="16dp"
+                android:id="@+id/txt_h3"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:text="@string/star3"
+                android:paddingTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:fontFamily="@font/calibri"
+                android:padding="16dp"
+                android:id="@+id/title_h4"
+                android:layout_gravity="center"
+                android:text="فرماندهی نیروی قدس"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:fontFamily="@font/calibri"
+                android:padding="16dp"
+                android:id="@+id/txt_h4"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:text="@string/star4"
+                android:paddingTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:fontFamily="@font/calibri"
+                android:padding="16dp"
+                android:id="@+id/title_h5"
+                android:layout_gravity="center"
+                android:text="اعلام پایان خلافت داعش"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:fontFamily="@font/calibri"
+                android:padding="16dp"
+                android:id="@+id/txt_h5"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:text="@string/star5"
+                android:paddingTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2">
+
+    </View>
+
+</LinearLayout>

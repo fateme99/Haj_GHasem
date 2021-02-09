@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/testament"
+    tools:context=".TestamentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:paddingTop="16dp"
+        tools:context=".TestamentActivity">
+
+        <LinearLayout
+            android:paddingRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="بِسمِ ربِّ الشُهَدا و الصِدّیقین"
+                android:fontFamily="@font/hayat"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/title1"
+                android:layout_gravity="center"
+                android:text="شهادت می‌دهم به اصول دین..."
+                android:fontFamily="@font/calibri"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text1"
+                android:layout_gravity="center"
+                android:text="@string/paragraph1"
+                android:fontFamily="@font/calibri"
+                android:visibility="gone"
+                android:paddingTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_gravity="center"
+                android:text="خدایا! تو را سپاس می‌گویم به‌خاطر نعمتهایت..."
+                android:paddingTop="10dp"
+                android:fontFamily="@font/calibri"
+
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text2"
+                android:layout_gravity="center"
+                android:text="@string/paragraph2"
+                android:fontFamily="@font/calibri"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_gravity="center"
+                android:text="خدایا! به عفو تو امید دارم..."
+                android:fontFamily="@font/calibri"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text3"
+                android:layout_gravity="center"
+                android:text="@string/paragraph3"
+                android:fontFamily="@font/calibri"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/title4"
+                android:layout_gravity="center"
+                android:text="خدایا! از کاروان دوستانم جامانده‌ام..."
+                android:fontFamily="@font/calibri"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text4"
+                android:layout_gravity="center"
+                android:text="@string/paragraph4"
+                android:fontFamily="@font/calibri"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title5"
+                android:layout_gravity="center"
+                android:text="خطاب به برادران و خواهران مجاهدم..."
+                android:fontFamily="@font/calibri"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text5"
+                android:layout_gravity="center"
+                android:text="@string/paragraph5"
+                android:fontFamily="@font/calibri"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title6"
+                android:layout_gravity="center"
+                android:text="خطاب به برادران و خواهران ایرانی..."
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/black"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text6"
+                android:layout_gravity="center"
+                android:text="@string/paragraph6"
+                android:fontFamily="@font/calibri"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title7"
+                android:layout_gravity="center"
+                android:text="خطاب به برادران و خواهران ایرانی..."
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/black"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text7"
+                android:layout_gravity="center"
+                android:text="@string/paragraph7"
+                android:fontFamily="@font/calibri"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title8"
+                android:layout_gravity="center"
+                android:text="خطاب به مردم عزیز کرمان..."
+                android:fontFamily="@font/calibri"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text8"
+                android:layout_gravity="center"
+                android:text="@string/paragraph8"
+                android:fontFamily="@font/calibri"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title9"
+                android:layout_gravity="center"
+                android:text="خطاب به خانواده شهدا..."
+                android:fontFamily="@font/calibri"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text9"
+                android:layout_gravity="center"
+                android:text="@string/paragraph9"
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title10"
+                android:layout_gravity="center"
+                android:text="خطاب به سیاسیون کشور..."
+                android:fontFamily="@font/calibri"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text10"
+                android:layout_gravity="center"
+                android:text="@string/paragraph10"
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title11"
+                android:layout_gravity="center"
+                android:text="خطاب به برادران سپاهی و ارتشی..."
+                android:fontFamily="@font/calibri"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text11"
+                android:layout_gravity="center"
+                android:text="@string/paragraph11"
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title12"
+                android:layout_gravity="center"
+                android:text="خطاب به علما و مراجع معظم..."
+                android:fontFamily="@font/calibri"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text12"
+                android:layout_gravity="center"
+                android:text= "@string/paragraph12"
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/title13"
+                android:layout_gravity="center"
+                android:text="از همه طلب عفو دارم..."
+                android:fontFamily="@font/calibri"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/text13"
+                android:layout_gravity="center"
+                android:text="@string/paragraph13"
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:paddingTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

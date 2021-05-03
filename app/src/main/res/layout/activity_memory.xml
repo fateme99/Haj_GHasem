@@ -31,7 +31,7 @@
                 <TextView
                     android:fontFamily="@font/hayat"
                     android:padding="16dp"
-                    android:text="بسمعه ای تعالی "
+                    android:text="بسمه تعالی "
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
